@@ -129,11 +129,6 @@ python inference.py
 
 ---
 
-## Results
-Include your results (e.g., accuracy, F1 score, confusion matrix) here once available.
-
----
-
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
