@@ -1,6 +1,6 @@
 # DistilBERT Fine-tuning on Emotion Classification Dataset
 
-This repository contains a PyTorch implementation for fine-tuning the DistilBERT base uncased model on the `dair-ai/emotion` dataset. The pipeline includes downloading the dataset, loading the pretrained model, training, saving the model and checkpoints, validating, evaluating, resuming training from a checkpoint, and performing inference.
+This repository contains a PyTorch and Transformers implementation for fine-tuning the DistilBERT base uncased model on the `dair-ai/emotion` dataset. The pipeline includes downloading the dataset, loading the pretrained model, training, saving the model and checkpoints, validating, evaluating, resuming training from a checkpoint, and performing inference.
 
 ## Features
 
