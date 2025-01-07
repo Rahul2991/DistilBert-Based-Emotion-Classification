@@ -35,8 +35,8 @@ pip install -r requirements.txt
 ### Steps
 1. Clone this repository:
     ```bash
-    git clone <repository_url>
-    cd <repository_name>
+    git clone https://github.com/Rahul2991/DistilBert-Based-Emotion-Classification.git
+    cd DistilBert-Based-Emotion-Classification
     ```
 
 2. Start training:
@@ -83,7 +83,7 @@ To perform inference on custom text:
 
 1. Run the inference script:
     ```bash
-    python inference.py --text "Your input text here"
+    python inference.py
     ```
 
 2. The script will output the predicted emotion label.
