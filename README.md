@@ -60,7 +60,7 @@ pip install -r requirements.txt
 After training, you can validate the model on the test dataset:
 
 ```bash
-python evaluate.py
+python evaluate_model.py
 ```
 
 ### Evaluation Metrics
@@ -95,10 +95,10 @@ To perform inference on custom text:
 ```plaintext
 .
 ├── train.py             # Script for training the model
-├── evaluate_model.py          # Script for evaluating the model
+├── evaluate_model.py    # Script for evaluating the model
 ├── inference.py         # Script for running inference
 ├── requirements.txt     # Dependencies
-├── results/               # Directory for saving the final model
+├── results/             # Directory for saving the final model
 ├── checkpoints/         # Directory for saving training checkpoints
 └── README.md            # Project documentation
 ```
@@ -119,7 +119,7 @@ python train.py --resume_training 1 --resume_training_checkpoint checkpoints/che
 
 ### Evaluation
 ```bash
-python evaluate.py
+python evaluate_model.py
 ```
 
 ### Inference
